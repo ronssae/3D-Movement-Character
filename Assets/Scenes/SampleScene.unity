@@ -3049,9 +3049,9 @@ MonoBehaviour:
   PlayerIs_Grounded: 0
   PlayerIs_Jumping: 0
   WalkingSpeed: 1
-  RunningSpeed: 1
+  RunningSpeed: 3
   SprintingSpeed: 5
-  RotationSpeed: 5
+  RotationSpeed: 25
   JumpHeight: 3
   GravityIntensity: -15
 --- !u!114 &1151115195
@@ -3087,9 +3087,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.23
-  m_Height: 1.8
+  m_Height: 1.5602226
   m_Direction: 1
-  m_Center: {x: 0, y: 0.9802133, z: 0}
+  m_Center: {x: 0, y: 1.073761, z: 0}
 --- !u!54 &1151115197
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5446,7 +5446,7 @@ MonoBehaviour:
   CameraCollisionOffset: 0.2
   MinCollisionOffset: 0.2
   CameraCollisionRadius: 0.2
-  CameraFollowSpeed: 0.2
+  CameraFollowSpeed: 0.1
   CameraLookSpeed: 0.2
   CameraPivotSpeed: 0.2
   LookAngle: 0
